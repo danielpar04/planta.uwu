@@ -1,0 +1,93 @@
+*{
+margin: 0%;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+
+font-family: tahoma sans-serif;
+}
+.menu_side{
+    width: 140px;
+    height: 100%;
+    background: #04d0d9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color:white;
+    font-size: 18px; 
+    overflow: hidden;
+}
+.options_menu{
+padding: 40px 20px;
+position: absolute;
+top: 100px;
+}
+.options_menu a{
+color: black;
+display: block;
+position: relative;
+transition: color 300ms;
+}
+.options_menu a:hover{
+    color: white;
+}
+.options_menu .option{
+padding: 20px 0px;
+display: flex;
+align-items: center;
+position: relative;
+}
+.options_menu .option .i{
+width: 30px;
+margin-right: 10px;
+}
+.options_menu .option h4{
+font-weight: 300;
+}
+
+.container{
+position: relative;
+width: 100vw;
+height: 20vh;
+display: flex;
+justify-content: left;
+align-items: center;
+background-color: none;
+}
+.imgl{
+height: auto;
+width: auto;
+max-height: 140px;
+max-width: 140px;
+}
+
+.img1{
+    height: auto;
+    width: auto;
+    max-height: 30px;
+    max-width: 100px;
+    }
+.img2{
+    height: auto;
+    width: auto;
+    max-height: 30px;
+    max-width: 100px;
+}
+.img3{
+    height: auto;
+    width: auto;
+    max-height: 30px;
+    max-width: 100px;
+    }
+.img4{
+    height: auto;
+    width: auto;
+    max-height: 30px;
+    max-width: 100px;
+}
+.img5{
+    height: auto;
+    width: auto;
+    max-height: 30px;
+    max-width: 100px;
+}
