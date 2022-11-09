@@ -1,0 +1,35 @@
+*{
+    font-family: tahoma sans-serif;
+}
+.general{
+    display: grid;
+    background: #28B463;
+    margin: 10px 100px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.tienda{
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    margin: 5px 30px;
+    background: white;
+    border-radius: 5px;
+}
+.tienda:hover{
+    border: 1px solid black;
+}
+.Titulo{
+    display:grid ;
+    margin: 10px 30px;
+}
+
+.imgl{
+    height: auto;
+    width: auto;
+    max-height: 140px;
+    max-width: 140px;
+    margin: 10px 30px;
+    border: 1px solid #ACD9B2;
+    }
+
+

@@ -1,0 +1,26 @@
+*{
+    font-family: tahoma sans-serif;
+}
+.imgl{
+    height: auto;
+    width: auto;
+    max-height: 140px;
+    max-width: 140px; 
+    margin:auto;
+    border: 1px solid #ACD9B2;
+    border-radius: 10px;
+    }
+.cuadro{
+    
+    padding: 1em;
+    border-radius: 40px;
+    }
+.cuadro:hover{
+    border: 2px solid black;    }
+    
+.general{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 1em;
+    margin: 50px 100px;
+}
